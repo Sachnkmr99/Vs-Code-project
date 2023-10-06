@@ -1,0 +1,970 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.bar {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    background-color: #f2f2f2;
+    z-index: 100;
+}
+.bar img {
+    margin: 2px 15px;
+}
+
+.subbar {
+    display: flex;
+    margin: 12px 15px;
+}
+
+.subbar p {
+    margin: 0px 10px;
+}
+
+.subbar span {
+    color: #c91d00;
+
+    padding: 0px 10px;
+}
+
+.section1 {
+
+    display: flex;
+    width: 100vw;
+    background-image: url("./Banner.png");
+    z-index: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.subsec1 {
+    width: 60%;
+
+    color: white;
+    margin: 7rem 10px;
+}
+
+.subsec1 h1 {
+    margin-top: 2rem;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 1rem 12rem;
+}
+
+.subsec1 p {
+    padding: 1rem 12rem;
+    font-size: 25px;
+    font-weight: 900;
+
+}
+
+.subsec2 {
+    width: 31%;
+    height: 470px;
+    background-color: white;
+    border: 5px;
+    border-radius: 30px;
+    margin: 6rem 20px;
+    z-index: 1;
+}
+
+.subsec2 h4 {
+    margin: 20px 20px;
+    font-size: larger;
+    font-weight: 900;
+    color: #c91d00;
+}
+
+.subsec2 form {
+    text-align: center;
+}
+
+.subsec2 input {
+    width: 90%;
+    margin: 5px 8px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+
+}
+
+.subsec2 textarea {
+    width: 90%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.subsec2 button {
+    margin: 15px 4rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+
+}
+
+.section2 {
+
+    text-align: center;
+    background-color: #f7f7f7;
+    width: 100vw;
+
+}
+
+.section2 h2 {
+
+    padding-top: 2rem;
+
+
+}
+
+.section2 p {
+    width: 47%;
+    margin: auto;
+    padding: 1rem 1rem 3rem 1rem;
+    font-size: larger;
+
+}
+
+.section3 {
+    text-align: center;
+    width: 100vw;
+    background-color: #f7f7f7;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1rem 11rem;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.btn span {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    margin: 10px 12px;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+
+.about {
+    align-items: center;
+
+    margin: auto;
+    width: 640px;
+    padding: 21px;
+}
+
+.who {
+    margin-left: 154px;
+    font-size: 40px;
+
+
+}
+
+.about p {
+    font-family: popins;
+    margin-top: 20px;
+    font-size: 23px;
+    text-align: center;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 24px;
+
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    padding: 110px;
+    margin-top: -150px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-grid img {
+    width: 560px;
+    height: 420px;
+    width: calc(50% - 5px);
+    margin-bottom: 10px;
+}
+
+@media (max-width: 550px) {
+    .image-grid img {
+        width: calc(100% - 5px);
+    }
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-row img{
+    width: 30%;
+}
+
+/*
+
+.section4 {
+    text-align: center;
+    width: 100vw;
+    background-color: #f7f7f7;
+
+
+}
+
+.section4 h3 {
+    padding: 20px 0px;
+
+}
+ 
+.section4 div:nth-of-type(2n) {
+    width: 100%;
+
+
+}
+
+.section4 div:nth-of-type(2n+1) img {
+    width: 25%;
+    height: 200px;
+    margin: 10px 10px;
+
+}
+
+.section4 div:nth-of-type(2n+1) {
+    width: 100%;
+
+
+}
+
+.section4 div:nth-of-type(2n) img {
+    width: 40%;
+    margin: 10px 10px;
+    height: 200px;
+
+
+} */
+
+.sec5 {
+    background-color: #f7f7f7;
+    width: 100vw;
+}
+
+.section5 {
+    display: flex;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+}
+
+.carousel img {
+    width: 100%;
+    height: 90px;
+    /* margin: 2rem 2rem; */
+}
+
+/* 
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 80%;
+}
+
+.carousel img {
+    width: 13%;
+    margin: 2rem 2.5rem;
+    height: 80px;
+} */
+
+
+.section6 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f7f7f7;
+    width: 100vw;
+}
+
+.grad1 {
+
+    border-radius: 25px;
+    width: 40vw;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 10px 10px;
+    margin: 3rem 1rem;
+    color: white;
+}
+
+.grad2 {
+    border-radius: 25px;
+    width: 40vw;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    margin: 3rem 1rem;
+    color: white;
+}
+
+.grad21 {
+    width: 100%;
+    padding: 0 10px;
+    transition: transform 0.5s ease;
+    transform: translateX(0);
+}
+
+.grad21:not(.active) {
+    display: none;
+}
+
+.grad2-carousel {
+    animation: carousel 6s infinite;
+}
+
+@keyframes carousel {
+    0% {
+        transform: translateX(0);
+    }
+
+    16.66% {
+        transform: translateX(-100%);
+    }
+
+    33.33% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    66.66% {
+        transform: translateX(-200%);
+    }
+
+    83.33% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.grad21 h4 {
+    margin-bottom: 2rem;
+}
+
+.grad1 h4 {
+    margin-bottom: 2rem;
+
+}
+
+.grad1 span {
+    padding: 1px;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-size: 15px;
+    margin: 1px 10px;
+}
+
+.grad1 h2 {
+    margin: 1rem 0.5rem;
+}
+
+.grad3 {
+    margin-bottom: 2rem;
+
+
+}
+
+.grad13 {
+    display: none;
+}
+
+.active {
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.end {
+    width: 100vw;
+    background-color: #f7f7f7;
+    padding: 10px 5rem;
+}
+
+
+
+.talk p {
+    width: 43%;
+    margin: 10px 0px;
+    font-size: larger;
+}
+
+.subform {
+    display: flex;
+}
+
+.inp input {
+    margin-bottom: 5px;
+    width: 30vw;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 9px 10px;
+}
+
+.area {
+    width: 60vw;
+    margin: 1px 15px;
+
+
+}
+
+.area textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.area button {
+    color: white;
+    background-color: #c91d00;
+    ;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    float: right;
+    margin: 10px;
+}
+
+.foot {
+    width: 100vw;
+    display: flex;
+    color: white;
+    background-color: black;
+    justify-content: space-evenly;
+
+}
+
+.foot p {
+    padding: 10px 20px;
+}
+
+.foot p span {
+    margin: 0px 10px;
+}
+
+/* media querirs start from here  */
+
+@media all and (max-width:1200px) {
+    .subbar1 {
+        margin: 0px 20px;
+    }
+
+    .subbar {
+        margin: 12px 20px;
+    }
+
+    .section1 {
+        width: 100vw;
+    }
+
+    .subsec1 {
+        width: 50%;
+
+    }
+
+    .subsec1 h1 {
+        margin-top: 2rem;
+        font-size: 47px;
+        padding: 1rem 3rem
+    }
+
+    .subsec1 p {
+        padding: 1rem 3rem;
+        font-size: 25px;
+    }
+
+    .subsec2 {
+        width: 22%;
+        margin: 6rem 4rem;
+    }
+
+    .subsec2 button {
+        margin: 8px 4rem;
+    }
+
+}
+
+@media all and (max-width:900px) {
+    .bar {
+        width: 100vw;
+    }
+
+    .section1 {
+        width: 100vw;
+    }
+
+    .subsec1 {
+        width: 50%;
+    }
+
+    .subsec1 h1 {
+        margin-top: 4rem;
+        font-size: 37px;
+        padding: 1rem 3rem;
+    }
+
+    .subsec1 p {
+        padding: 1rem 3rem;
+        font-size: 25px;
+    }
+
+    .subsec2 {
+        width: 40%;
+    }
+
+    .subsec2 button {
+        margin: 8px 7rem;
+    }
+
+    .btn {
+        padding: 1rem 1rem;
+
+    }
+
+    .btn span {
+        margin: 10px 10px;
+        padding: 5px 10px;
+    }
+
+    .end {
+        padding: 10px 0rem;
+    }
+
+    .talk {
+        margin: 1rem 5rem;
+    }
+
+    .talk p {
+        width: 50%;
+    }
+
+    .form2 {
+        margin: 1rem 5rem;
+    }
+
+    .area textarea {
+        width: 75%;
+    }
+
+    .area button {
+        float: left;
+    }
+
+    .foot p {
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+
+    .foot p span {
+        margin: 10px;
+    }
+
+    .area textarea {
+        width: 100%;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 p {
+        width: 80%;
+        margin: 0;
+    }
+
+
+}
+
+@media all and (max-width:700px) {
+    .bar {
+        width: 100vw;
+    }
+
+    .bar img {
+        margin: 7px 10px;
+        width: 80%;
+    }
+
+    .subbar {
+        margin: 12px 10px;
+    }
+
+    .subbar p {
+        margin: 0;
+    }
+
+    .section1 {
+        width: 100vw;
+    }
+
+    .subsec1 {
+        width: 50%;
+    }
+
+    .subsec1 p {
+        padding: 1rem 3rem;
+        font-size: 25px;
+    }
+
+    .subsec2 button {
+        margin: 8px 0rem;
+    }
+
+    .section5 {
+        width: 100%;
+    }
+
+    .area textarea {
+        width: 75%;
+    }
+
+    .area button {
+        float: left;
+    }
+
+    .foot p {
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+
+    .foot p span {
+        margin: 10px;
+    }
+
+    .btn {
+        margin: 0rem 0rem;
+    }
+
+    .sec5 {
+        padding: 20px;
+    }
+
+    .grad1 {
+        margin: 1rem;
+    }
+
+    .grad1 h2 {
+        margin: 2rem 0rem;
+        font-size: 15px;
+    }
+
+    .grad2 {
+        margin: 1rem;
+        padding: 5px;
+    }
+
+    .grad21 h4 {
+        margin-bottom: 1rem;
+    }
+
+    .grad3 {
+        margin-bottom: 1rem;
+    }
+
+    .area textarea {
+        width: 100%;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 p {
+        width: 80%;
+        margin: 0;
+    }
+
+}
+
+@media all and (max-width:550px) {
+    .bar {
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+
+    .bar img {
+        margin: 27px 5px;
+        width: 60%;
+    }
+
+    .subbar1 {
+        width: 30%;
+        margin: 0;
+    }
+
+    .subbar {
+        margin: 17px 0px;
+    }
+
+    .subbar p {
+        margin: 10px 5px;
+        font-size: 10px;
+
+    }
+
+    .subbar span {
+        padding: 0px 5px;
+    }
+
+    .section1 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subsec1 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .subsec1 h1 {
+        margin: 0.5rem;
+    }
+
+    .subsec1 p {
+        margin: 0.5rem;
+    }
+
+    .subsec1 p {
+        padding: 1rem 3rem;
+        font-size: 25px;
+    }
+
+    .subsec2 {
+        width: 80%;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .subsec2 button {
+        margin: 8px 0rem;
+    }
+
+    .section5 {
+        width: 100%;
+    }
+
+    .area textarea {
+        width: 100%;
+    }
+
+    .area button {
+        float: left;
+    }
+
+    .foot p {
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+
+    .foot p span {
+        margin: 10px;
+    }
+
+    .section6 {
+        margin: 3rem 0rem;
+    }
+
+    .grad1 h2 {
+        margin: 1rem 0rem;
+        font-size: 15px;
+    }
+
+    .grad1 h4 {
+        margin-bottom: 1rem;
+    }
+
+    .active {
+        margin-bottom: 1rem;
+    }
+
+    .grad2 {
+        padding: 5px;
+    }
+
+    .grad21 h4 {
+        margin-bottom: 1rem;
+    }
+
+    .grad3 {
+        margin-bottom: 0rem;
+    }
+
+    .section6 {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .grad1 {
+        width: 80%;
+        margin: 1rem 2.5rem;
+    }
+
+    .grad2 {
+        width: 80%;
+        margin: 1rem 2.5rem;
+    }
+
+    .section2 {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 p {
+        padding: 1rem 1rem;
+        margin: 0;
+        width: 100%;
+    }
+
+    .btn {
+        margin: 0rem;
+    }
+
+    .btn span {
+        font-size: 14px;
+        margin: 5px;
+        padding: 5px 5px;
+    }
+
+    .talk {
+        margin: 1rem 2rem;
+    }
+
+    .talk p {
+        width: 80%;
+    }
+
+    .subform {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inp {
+        width: 100%;
+    }
+
+    .inp input {
+        width: 100%;
+    }
+
+    .area {
+        width: 100%;
+        margin: 0;
+    }
+
+    .area textarea {
+        width: 100%;
+    }
+
+    .area button {
+        float: right;
+    }
+
+    .form2 {
+        margin: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+    }
+
+
+}
+
+@media all and (max-width:300px) {
+    .subbar p {
+        margin: 10px 0px;
+        font-size: 10px;
+    }
+
+    .grad1 {
+        width: 80%;
+        margin: 1rem 1.6rem;
+    }
+
+    .grad2 {
+        width: 80%;
+        margin: 1rem 1.6rem;
+    }
+}
+
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+ 

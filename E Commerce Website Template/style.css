@@ -1,0 +1,25 @@
+.container-fluid img {
+    width: 230px;
+}
+
+.d-fles i {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+/* Normal state styles */
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    transition: color 0.3s, transform 0.3s; 
+}
+.nav-item:hover .nav-link {
+    color: red;
+    transform: scale(1.1); 
+}
+
+.fa:hover {
+    color: red; 
+}

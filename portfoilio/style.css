@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5c3c3;
+  padding: 10px;
+  height: 70px;
+
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.menu li {
+  margin: 0 10px;
+  padding-right: 40px;
+  font-size: 25px;
+}
+
+.btn {
+  margin-right: 26px;
+  font-size: 25px;
+}
+
+@media (max-width: 400px) {
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 5px;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu li {
+    margin: 5px 0;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  .menu li {
+    margin: 0 5px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .menu li {
+    margin: 0 8px;
+  }
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 238, 238);
+}
+
+.left {
+  width: 40%;
+  padding: 100px 0px 0px 217px;
+}
+
+.left h1 {
+  font-size: 75px;
+}
+
+.btn1 {
+  padding: 113px 0px 0px 54px;
+}
+
+.btn1 button {
+  font-size: 26px;
+  height: 61px;
+  width: 171px;
+  border-radius: 38px;
+}
+
+.right {
+  padding: 57px 145px 0px 0px;
+}
+
+.right img {
+  width: 500px;
+}
+
+/*  about Div
+*/
+.about {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.about h1 {
+  font-size: 60px;
+}
+
+.about p {
+  font-size: 26px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  text-align: center; */
+  margin-top: 97px;
+}
+
+.para1 {
+  padding-left: 27px;
+  width: 26%;
+
+}
+
+.btn2 button {
+  margin-top: 51px;
+  height: 50px;
+  width: 140px;
+  font-size: 23px;
+  border-radius: 28px;
+}
+
+.title h1 {
+  font-size: 41px;
+
+}
+
+.title p {
+  margin-left: 46px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.para2 {
+  padding: 180px 9px 0px 1px;
+  ;
+  margin-left: 52px;
+}
+
+.para2 p {
+  font-size: 20px;
+}
+
+.img {
+  margin-left: 100px;
+}
+
+
+/* What div container */
+
+.what {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.what h1 {
+  font-size: 60px;
+}
+
+.what p {
+  font-size: 26px;
+}
+
+/* container */
+.sachin {
+  background-color: rgb(243, 238, 238);
+  height: 900px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.left1 {
+  background-color: white;
+  margin-left: 30px;
+  width: 24%;
+  font-size: larger;
+  height: 500px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.left1 img {
+  width: 90px;
+  margin: 30px 0px 0px 150px;
+}
+
+.left1 h1 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+
+.left1 p {
+  margin-left: 70px;
+}
+
+.left1 i {
+  margin-left: 70px;
+  margin-top: 69px;
+}
+
+/* work experiace */
+.container2 {
+  height: 1500px;
+}
+
+.experiance {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.UI {
+  margin-right: 25px;
+  width: 30%;
+  height: 341px;
+  background: rgb(243, 238, 238);
+  ;
+  border-radius: 15px;
+}
+
+.UI h1 {
+  margin: 60px 0px 0px 60px;
+}
+
+.UI p {
+  margin: 4px 0px 0px 60px;
+}
+
+
+
+.progress {
+  margin: 80px 0px 0px 48px;
+  border: 2px solid black;
+  width: 83%;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+
+  align-items: center;
+}
+
+.progress-text {
+  padding-left: 30px;
+}
+
+/* 
+.progress-text {
+  flex-grow: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-left: 15px;
+} */
+.work {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.Web {
+  margin-right: 25px;
+  width: 19.5%;
+  height: 341px;
+  background: rgb(243, 238, 238);
+  ;
+  border-radius: 15px;
+}
+
+.Web h1 {
+  margin: 60px 0px 0px 47px;
+}
+
+.Web p {
+  margin: 4px 0px 0px 47px;
+}
+
+
+
+
+.progress {
+  margin: 80px 0px 0px 48px;
+  border: 2px solid black;
+  width: 83%;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar {
+  background-color: #007bff; /* Default progress bar color */
+  width: 0; /* Start with 0% progress */
+  height: 100%;
+  border-radius: 15px;
+  transition: width 0.5s; /* Transition for smooth progress animation */
+}
+
+.progress:hover .progress-bar {
+  background-color: yellow; /* Change progress bar color on hover */
+}
+
+.progress:hover .progress-bar::before {
+  content: attr(data-progress); /* Show progress percentage on hover */
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 6px;
+  color: black;
+}
+
+.progress-text {
+  padding-left: 30px;
+}

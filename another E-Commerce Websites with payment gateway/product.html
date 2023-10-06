@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online store - Product </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="rel">
+    <link rel="stylesheet" href="style.css" class="rel">
+    <link rel="stylesheet" href="search.css" class="rel">
+    <link rel="stylesheet" href="product.css" class="rel">
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <nav class="navbar bg">
+        <ul class="link-container">
+            <li class="Link-item logo">
+                <a href="index.html">
+                    <img src="img/furniture-logo-design-vector.jpg" alt="Your Logo" width="70px">
+                </a>
+            </li>
+            <li class="Link-item"><a href="home.html" class="link active">Home</a></li>
+            <li class="Link-item"><a href="product.html" class="link active">Product</a></li>
+            <li class="Link-item"><a href="#" class="link active">About</a></li>
+            <li class="Link-item"><a href="#" class="link active">Contact</a></li>
+            <li class="Link-item">
+                <form class="search-form" action="#" method="GET">
+                    <input type="text" name="search" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </li>
+        </ul>
+        <div class="user-interaction">
+            <div class="cart">
+                <img src="img/cart.png" class="cart-icon" alt="">
+                <span class="cart-item" id="cartItems">00</span>
+            </div>
+            <div class="user">
+                <img src="img/user.png" class="user-icon" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <!-- product items -->
+    <div class="product-div">
+        <div class="titless">
+            <h2>Product Categories</h2>
+        </div>
+        <div class="category">
+            <div class="product-sachin">
+                <div class="imagess">
+                    <img src="img/sofa-1.png" alt="Sofa 1" width="350px" height="350px">
+                    <h1 class="product-titles">Sofa</h1>
+                    <p class="product-inffo">Lorem ipsum dolor sit amet odit.
+                    </p>
+                    <div class="button-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="imagess">
+                    <img src="img/sofa-2.png"="Sofa 2" width="350px" height="350px">
+                    <h1 class="product-titles">Sofa</h1>
+                    <p class="product-inffo">Lorem ipsum dolor sit amet odit.
+                    </p>
+                    <div class="button-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                    <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                </div>
+                <div class="imagess">
+                    <img src="img/sofa-3.png" alt="Sofa 3" width="350px" height="350px">
+                    <h1 class="product-titles">Sofa</h1>
+                    <p class="product-inffo">Lorem ipsum dolor sit amet odit.
+                    </p>
+                    <div class="button-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="imagess">
+                    <img src="img/sofa-4.png" alt="Sofa 4" width="350px" height="350px">
+                    <h1 class="product-titles">Sofa</h1>
+                    <p class="product-inffo">Lorem ipsum dolor sit amet odit.
+                    </p>
+                    <div class="button-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                    <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                </div>
+            </div>
+            <div class="product-kumar">
+                <div class="imagess">
+                    <img src="img/sofa-5.png" alt="Sofa 5" width="350px" height="350px">
+                    <h1 class="product-titles">Sofa</h1>
+                    <p class="product-inffo">Lorem ipsum dolor Voluptates odit.</p>
+                    <div class="button-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="imagess">
+                    <img src="img/sofa-6.png" alt="Sofa 6" width="350px" height="350px">
+                    <h1 class="product-titles">Sofa</h1>
+                    <p class="product-inffo">Lorem ipsum dolor Voluptates odit.</p>
+                    <div class="button-buy" onclick="addToCart('Sofa')">Buy Now</div>
+                    <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                </div>
+                <div class="imagess">
+                    <img src="img/sofa-3.png" alt="Sofa 3" width="350px" height="350px">
+                    <h1 class="product-titles">Sofa</h1>
+                    <p class="product-inffo" >Lorem ipsum dolor Voluptates odit.
+                    </p>
+                    <div class="button-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="imagess">
+                    <img src="img/sofa-4.png" alt="Sofa 4" width="350px" height="350px">
+                    <h1 class="product-titles">Sofa</h1>
+                    <p class="product-inffo">Lorem ipsum dolor Voluptates odit.
+                    </p>
+                    <div class="button-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                    <i class="fa-solid fa-cart-shopping" style="color: white;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="category">
+        <div class="h3-container">
+            <h3>Table</h3>
+        </div>
+        <div class="product-Rohit">
+            <div class="imagess">
+                <img src="img/product-1.png" alt="Table 1" width="360px" height="360px">
+                <h1 class="prod-titles">Center table</h1>
+                <div class="but-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                <i class="fa-solid fa-cart-shopping" style="transform: translateY(-80px);"></i>
+            </div>
+            <div class="imagess">
+                <img src="img/product-2.png" alt="Table 1" width="360px" height="360px">
+                <h1 class="prod-titles">Center table</h1>
+                <div class="but-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                <i class="fa-solid fa-cart-shopping" style="transform: translateY(-80px);"></i>
+            </div>
+            <div class="imagess">
+                <img src="img/product-3.png" alt="Table 1" width="360px" height="360px">
+                <h1 class="prod-titles">Center table</h1>
+                <div class="but-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                <i class="fa-solid fa-cart-shopping" style="transform: translateY(-80px);"></i>
+            </div>
+            <div class="imagess">
+                <img src="img/product-4.png" alt="Table 1" width="360px" height="360px">
+                <h1 class="prod-titles">Center table</h1>
+                <div class="but-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                <i class="fa-solid fa-cart-shopping" style="transform: translateY(-80px);"></i>
+            </div>
+        </div>
+        <div class="product-chauhan">
+            <div class="imagess">
+                <img src="img/product-image.png" alt="Table 1" width="360px" height="360px">
+                <h1 class="prod-titles">Center table</h1>
+                <div class="but-buy"  onclick="addToCart('Sofa')">Buy Now</div>
+                <i class="fa-solid fa-cart-shopping" style="transform: translateY(-80px);"></i>
+
+            </div>
+            <div class="imagess">
+                <img src="img/product-2.png" alt="Table 1" width="360px" height="360px">
+                <h1 class="prod-titles">Center table</h1>
+                <div class="but-buy" onclick="addToCart('Sofa')">Buy Now</div>
+                <i class="fa-solid fa-cart-shopping" style="transform: translateY(-80px);"></i>
+            </div>
+            <div class="imagess">
+                <img src="img/product-3.png" alt="Table 1" width="360px" height="360px">
+                <h1 class="prod-titles">Center table</h1>
+                <div class="but-buy" onclick="addToCart('Sofa')">Buy Now</div>
+                <i class="fa-solid fa-cart-shopping" style="transform: translateY(-80px);"></i>
+
+            </div>
+            <div class="imagess">
+                <img src="img/product-4.png" alt="Table 1" width="360px" height="360px">
+                <h1 class="prod-titles">Center table</h1>
+                <div class="but-buy" onclick="addToCart('Sofa')">Buy Now</div>
+                <i class="fa-solid fa-cart-shopping" style="transform: translateY(-80px);"></i>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- prodcut detail -->
+    <section class="product-section">
+        <img src="img/product-image.png" class="product-imgg" alt="">
+        <div class="product-detail">
+            <h1 class="product-title">Premium sofa</h1>
+            <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quaerat
+                adipisci. Porro, nesciunt ipsum!</p>
+            <div class="rating">
+                <img src="img/fill star.png" class="star" alt="">
+                <img src="img/fill star.png" class="star" alt="">
+                <img src="img/fill star.png" class="star" alt="">
+                <img src="img/fill star.png" class="star" alt="">
+                <img src="img/fill star.png" class="star" alt="">
+                <span class="rating-count"> 4023 reviews</span>
+            </div>
+            <p class="price">$ 499</p>
+            <div class="btn-container">
+                <button class="product-btn buy-btn"  onclick="addToCart('Sofa')">Buy Now</button>
+                <button class="product-btn cart-btn"  onclick="addToCart('Sofa')">add to cart</button>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- details-decription -->
+    <section class="detail-des">
+        <h1 class="section-title">Details</h1>
+        <p class="des" style="color: black;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt quisquam
+            hic tenetur provident
+            nobis explicabo obcaecati cumque. Atque ex placeat deleniti. Ut vel excepturi soluta harum eius nam, quam ex
+            velit hic maxime nemo consequuntur corporis? Pariatur officiis esse doloremque vero. Quasi amet doloribus
+            quod at? Laudantium officia minus nam quod beatae molestias id porro quas aliquam mollitia atque
+            <br>consequuntur, vitae omnis? Sequi voluptates cumque rem facilis perferendis voluptatum impedit iure, iste
+            et numquam illo mollitia id tempore nulla at illum, accusantium ipsum corporis. Nemo, labore voluptatum
+            dolore doloribus quas consequuntur voluptatibus officia itaque velit ipsam, repellat tenetur ad eligendi
+            praesentium modi deleniti iure perferendis quam libero eveniet rem. Aperiam vero doloribus veritatis, culpa
+            voluptatem provident blanditiis ex, inventore natus obcaecati ipsum aliquam similique dolor hic quibusdam.
+            Sint quo ipsa quasi, officia sed quibusdam neque quod dignissimos tenetur reprehenderit facere, sit mollitia
+            eius, earum sapiente dolorum nulla dolore tempore incidunt. <br>Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolor fuga vel inventore in tempore reprehenderit.
+        </p>
+    </section>
+
+    <!-- review -->
+    <section class="review">
+        <h1 class="section-title">Reviews</h1>
+        <div class="review-container">
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/user 1.png" alt=""></div>
+                <h2 class="review-title">best quality more than my expextation</h2>
+                <p class="review-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, quaerat?</p>
+            </div>
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/user 2.png" alt=""></div>
+                <h2 class="review-title">on time delivery with best packaging</h2>
+                <p class="review-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, quaerat?</p>
+            </div>
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/user 3.png" alt=""></div>
+                <h2 class="review-title">very helpfull customer support and very supportive</h2>
+                <p class="review-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, quaerat?</p>
+            </div>
+
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/user 4.png" alt=""></div>
+                <h2 class="review-title">on time delivery with best packaging</h2>
+                <p class="review-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, quaerat?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- review-form -->
+    <section class="review-section">
+        <h1 class="section-tilte">add a review</h1>
+        <input type="text" class="review-headline" placeholder="review-headline">
+        <textarea placeholder="review" class="review-field"></textarea>
+        <p class="rating-text">How much you liked the product</p>
+        <div class="star-conatainer">
+            <img src="img/no fill star.png" alt="" class="rating-star">
+            <img src="img/no fill star.png" alt="" class="rating-star">
+            <img src="img/no fill star.png " alt="" class="rating-star">
+            <img src="img/no fill star.png " alt="" class="rating-star">
+            <img src="img/no fill star.png " alt="" class="rating-star">
+        </div>
+        <button class="add-review-btn">Add Review</button>
+    </section>
+    <!-- similiar product -->
+    <section class="best-selling">
+        <h1 class="section-title">similar product</h1>
+        <div class="product-container">
+            <div class="product-card">
+                <img src="img/product-1.png" class="product-img" alt="img">
+                <p class="product-name">Lights</p>
+            </div>
+            <div class="product-card">
+                <img src="img/product-2.png" class="product-img" alt="img">
+                <p class="product-name">Table</p>
+            </div>
+            <div class="product-card">
+                <img src="img/product-3.png" class="product-img" alt="img">
+                <p class="product-name">Storage</p>
+            </div>
+            <div class="product-card">
+                <img src="img/product-4.png" class="product-img" alt="img">
+                <p class="product-name">shofa</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-section">
+            <h2>Company Information</h2>
+            <p><strong>Company Name</strong></p>
+            <p>Address: Company Address</p>
+            <p>City: City</p>
+            <p>State: State</p>
+            <p>Zip Code: Zip Code</p>
+            <p>Country: Country</p>
+            <p>Phone: Phone Number</p>
+            <p>Email: Email Address</p>
+        </div>
+        <div class="footer-section">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#">Category 1</a></li>
+                <li><a href="#">Category 2</a></li>
+                <li><a href="#">Category 3</a></li>
+                <li><a href="#">Category 4</a></li>
+                <li><a href="#">Category 5</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h2>Customer Service</h2>
+            <ul>
+                <li><a href="#">Returns & Exchanges</a></li>
+                <li><a href="#">Shipping & Delivery</a></li>
+                <li><a href="#">Track Your Order</a></li>
+                <li><a href="#">Payment Options</a></li>
+                <li><a href="#">Contact Customer Support</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h2>Connect With Us</h2>
+            <ul class="social-links">
+                <li><a href="#"><i class="fa-brands fa-square-facebook fa-beat"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-instagram fa-beat"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin fa-beat"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-twitter fa-beat"></i></a></li>
+            </ul>
+            <div class="right">
+                &copy; SACHINCHAUHAN, All Right
+
+            </div>
+        </div>
+    </footer>
+    <!-- <footer>Made by SACHINCHAUHAN</footer> -->
+    <script src="js/product.js"></script>
+
+</body>
+
+</html>

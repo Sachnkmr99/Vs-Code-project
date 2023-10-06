@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+
+}
+
+.application {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.addmission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 20px;
+}
+
+/* .image img{
+    width: 200px;
+    height: 200px;
+  } */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.content p {
+    font-size: 40px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.address p{
+    color: #0facdf;
+}
+.application h1{
+    font-size: 50px;
+    color: #3746c4;
+}
+.addmission p{
+    font-size: 40px;
+    color: #3746c4;
+}
+
+.container {
+
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 70px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+   
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.section {
+    display: flex;
+
+}
+
+.section1 {
+    display: flex;
+}
+.submit{
+    padding-top: 50px;
+    float: right;
+    padding-bottom: 50px;
+}
+.submit-button {
+    /* width: 100%; */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+   
+}
+
+.button-container {
+    display: flex;
+}
+
+.phone {
+    display: flex;
+}
+
+.square-radio {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.square-radio input[type="radio"] {
+    display: none;
+}
+
+.square-radio span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.square-radio input[type="radio"]:checked+span {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-container {
+    padding-left: 47px;
+}
+
+.email {
+    display: flex;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 78px;
+}
+
+hr.class-1 {
+    border-top: 3px solid #8c8b8b;
+}
+
+hr.class-2 {
+    border-top: 5px solid #8c8b8b;
+}
+
+hr.class-3 {
+    border-top: 8px solid #8c8b8b;
+}
+
+#vehicle1 {
+    width: 20px;
+    height: 20px;
+}
+
+.permission {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
